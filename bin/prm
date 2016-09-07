@@ -37,7 +37,7 @@ class Main < Clamp::Command
 
   def execute
 	if version?
-		puts "PRM version: 0.2.14\n"
+		puts "PRM version: 0.2.16\n"
 		exit
 	end
 
