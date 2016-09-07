@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob("{lib,templates}/**/*")
   s.bindir	  = 'bin'
   s.executables = ['prm']
-  s.add_dependency('peach')
-  s.add_dependency('aws-s3')
-  s.add_dependency('clamp')
-  s.add_dependency('arr-pm')
+  s.add_dependency "peach", "~> 0.5.1"
+  s.add_dependency "aws-s3", "~> 0.6.3"
+  s.add_dependency "clamp", "~> 1.0.0"
+  s.add_dependency "arr-pm", "~> 0.0.11"
   s.homepage    = 'https://github.com/dnbert/prm'
   s.license = 'MIT'
 end
